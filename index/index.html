@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza Hut</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">🍕 Pizza Hut</div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="cta-buttons">
+        <a href="#" class="btn order">Order Now</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Hot, Fresh & Fast 🍕</h1>
+        <p>Get your favorite pizza delivered in no time – fresh from our oven to your door.</p>
+        <div class="hero-buttons">
+          <a href="#" class="btn primary">Order Now</a>
+          <a href="#" class="btn secondary">View Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section class="specials">
+    <div class="container">
+      <h2 class="section-title">🔥 Featured Specials</h2>
+      <div class="specials-grid">
+        <!-- Special 1 -->
+        <div class="special-card">
+          <img src="https://media.istockphoto.com/id/2159019591/photo/hand-with-knife-citting-pizza.jpg?s=612x612&w=0&k=20&c=c7qDpI6k1E7p2n1DKKd4-9dgZbPHeR2UxHW_Cd-jLy8=" alt="Pizza Deal">
+          <h3>Buy 1 Get 1 Free</h3>
+          <p>Order any large pizza and get one absolutely free. Available for a limited time!</p>
+          <a href="#" class="btn-card">Order Now</a>
+        </div>
+  
+        <!-- Special 2 -->
+        <div class="special-card">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="Combo Deal">
+          <h3>Family Feast Combo</h3>
+          <p>2 Large Pizzas, Wings, and a 2L Drink for just ₹600. Perfect for game night!</p>
+          <a href="#" class="btn-card">Grab Deal</a>
+        </div>
+  
+        <!-- Special 3 -->
+        <div class="special-card">
+          <img src="https://media.istockphoto.com/id/1224219335/photo/cola-and-tasty-homemade-pizza.jpg?s=612x612&w=0&k=20&c=A_uPKwDM9CApKO4XYmLOvAQD3mim0OKrqxREr--ypI8=" alt="Lunch Deal">
+          <h3>Lunch for One</h3>
+          <p>1 Personal Pizza + Drink for only ₹99. Quick, delicious, and satisfying.</p>
+          <a href="#" class="btn-card">View More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-preview">
+    <div class="container">
+      <h2 class="section-title"><div style="width: 600px; margin: 0 auto ; text-align: center;">🍴 Explore Our Menu</div></h2>
+      <div class="menu-scroll">
+        <!-- Menu Item -->
+        <div class="menu-item">
+          <img src="https://media.istockphoto.com/id/1387025009/photo/top-view-three-delicious-italian-pizzas-on-the-table.jpg?s=612x612&w=0&k=20&c=1x5GxDEQ4SJ6mkFlsPom8qtL9_GcVA9_xYW41riZMo0=" alt="Pizzas">
+          <h3>Pizza</h3>
+        </div>
+  
+        <div class="menu-item">
+          <img src="https://media.istockphoto.com/id/1309966291/photo/delivery-fast-food-concept.jpg?s=612x612&w=0&k=20&c=TcY_bJDPphPUl1X9PtsWXfLBdmRRcd9wbiOHbuN8O9k=" alt="Sides">
+          <h3>Sides</h3>
+        </div>
+  
+        <div class="menu-item">
+          <img src="https://media.istockphoto.com/id/1147314416/photo/sweet-christmas-dessert.jpg?s=612x612&w=0&k=20&c=-JndOtSbvIYIyJ3YBqYdRniPdkLklJYnw3NyZIFZSJw=" alt="Desserts">
+          <h3>Desserts</h3>
+        </div>
+  
+        <div class="menu-item">
+          <img src="https://media.istockphoto.com/id/500903136/photo/close-up-cool-colorful-drink-in-vintage-style.jpg?s=612x612&w=0&k=20&c=zxNZeCq4lp98OXUevuz84S8-A_8Qbq2ilLy17p2UgUM=" alt="Drinks">
+          <h3>Drinks</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="build-pizza">
+    <div class="container">
+      <h2 class="section-title">🍕 Build Your Own Pizza</h2>
+  
+      <form class="pizza-form">
+        <!-- Size Selection -->
+        <div class="form-group">
+          <h3>Choose Your Size</h3>
+          <label><input type="radio" name="size" value="small"> Small</label>
+          <label><input type="radio" name="size" value="medium"> Medium</label>
+          <label><input type="radio" name="size" value="large"> Large</label>
+        </div>
+  
+        <!-- Crust Selection -->
+        <div class="form-group">
+          <h3>Select Crust</h3>
+          <label><input type="radio" name="crust" value="thin"> Thin</label>
+          <label><input type="radio" name="crust" value="pan"> Pan</label>
+          <label><input type="radio" name="crust" value="stuffed"> Stuffed</label>
+        </div>
+  
+        <!-- Toppings Selection -->
+        <div class="form-group">
+          <h3>Pick Your Toppings</h3>
+          <label><input type="checkbox" name="toppings" value="pepperoni"> Pepperoni</label>
+          <label><input type="checkbox" name="toppings" value="mushrooms"> Mushrooms</label>
+          <label><input type="checkbox" name="toppings" value="onions"> Onions</label>
+          <label><input type="checkbox" name="toppings" value="bacon"> Bacon</label>
+          <label><input type="checkbox" name="toppings" value="extra-cheese"> Garlic Cheese</label>
+        </div>
+  
+        <button type="submit" class="btn-submit">Add to Order</button>
+      </form>
+    </div>
+  </section>
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title">💬 What Our Customers Say</h2>
+      
+      <div class="testimonial-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Best pizza in town! The crust is perfect, and the toppings are always fresh."</p>
+          <div class="testimonial-author">— Sarah J.</div>
+        </div>
+  
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <p class="testimonial-text">"I build my own pizza every weekend and it's always amazing. Highly recommend!"</p>
+          <div class="testimonial-author">— Marcus D.</div>
+        </div>
+  
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <p class="testimonial-text">"Fast delivery, great service, and super cheesy pizzas! What more could I ask for?"</p>
+          <div class="testimonial-author">— Priya K.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="our-story">
+    <div class="container">
+      <div class="story-content">
+        <!-- Text Section -->
+        <div class="story-text">
+          <h2 class="section-title">🍕 Our Story</h2>
+          <p>
+            At PizzaHut, we're not just about pizza—we're about passion, flavor, and creating unforgettable moments. Since day one, we've been dedicated to crafting the perfect slice using only the freshest ingredients and time-honored recipes.
+          </p>
+          <p>
+            Whether you're dining in, taking out, or ordering online, every pizza we make is a promise of quality, tradition, and a little extra love.
+          </p>
+  
+          <h3>💡 Why Choose Us?</h3>
+          <ul>
+            <li>🔥 Freshly baked pizzas every time</li>
+            <li>🍅 Premium ingredients, locally sourced</li>
+            <li>🚀 Fast delivery and easy online ordering</li>
+            <li>❤️ 1000s of satisfied customers</li>
+          </ul>
+        </div>
+  
+        <!-- Image Section -->
+        <div class="story-image">
+          <img src="https://media.istockphoto.com/id/840623040/photo/whats-your-story-typed-on-a-vintage-typewriter.jpg?s=612x612&w=0&k=20&c=Ii3_NSqQ_J4BnI8uhKqZ_qWNVZgP7mhkRD8ykXub33s=" alt="Our Story Pizza" />
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="store-locator">
+    <div class="container">
+      <h2 class="section-title">📍 Find a PizzaHut Near You</h2>
+  
+      <div class="locator-search">
+        <input type="text" placeholder="Search city by name or Pincode..." />
+        <button>Search</button>
+      </div>
+  
+      <div class="store-horizontal">
+        <div class="store-item">
+          <h3>PizzaHut - Hazratganj</h3>
+          <p> 91, Mahatma Gandhi Marg, opposite Governer House, Raj Bhavan Colony, Hazratganj, Lucknow</p>
+          <p>📞 +91 18002022022</p>
+        </div>
+        <div class="store-item">
+          <h3>PizzaHut - Mahanagar</h3>
+          <p> Located near - Prem Jyoti Tower,  B 939/A, Gole Market, Mahanagar, Lucknow</p>
+          <p>📞 +91 8448191079</p>
+        </div>
+        <div class="store-item">
+          <h3>PizzaHut - Gomti Nagar</h3>
+          <p>round Floor, West End Mall, SN 8 to 10, Vibhuti Khand, Gomti Nagar, Lucknow</p>
+          <p>📞 +91 7459979118</p>
+        </div>
+        <div class="store-item">
+          <h3>PizzaHut - Golf city</h3>
+          <p>2nd Floor, Food Court, Lulu Mall, Amar Shaheed Path, Golf City, Lucknow,</p>
+          <p>📞 +91 8527938787</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="newsletter-app">
+    <div class="container">
+      <div class="newsletter-app-content">
+        <!-- Newsletter -->
+        <div class="newsletter">
+          <h2>📬 Stay in the Loop</h2>
+          <p>Sign up for our newsletter to get exclusive deals, new items & PizzaHut news!</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+  
+        <!-- App Promotion -->
+        <div class="app-promo">
+          <h2>📱 Get the App</h2>
+          <p>Order faster, track your delivery, and enjoy rewards—all from our mobile app.</p>
+          <div class="app-buttons">
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play" /></a>
+            <a href="#"><img src="https://imgs.search.brave.com/NnqLvenOG4bDB-ZHdmETMobZGJvvljBIjNXFLBdHO30/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy85/LzkxL0Rvd25sb2Fk/X29uX3RoZV9BcHBf/U3RvcmVfUkdCX2Js/ay5zdmc" alt="App Store" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container footer-content">
+  
+      <!-- Column 1: Logo & About -->
+      <div class="footer-column">
+        <h2 class="footer-logo">🍕 PizzaHut</h2>
+        <p>Bringing piping hot pizzas to your doorstep since 1958. Taste the tradition.</p>
+      </div>
+  
+      <!-- Column 2: Quick Links -->
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Order Now</a></li>
+          <li><a href="#">Deals</a></li>
+          <li><a href="#">Find a Store</a></li>
+        </ul>
+      </div>
+  
+      <!-- Column 3: Contact Info -->
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <p>📞 (800) PIZZA-HUT</p>
+        <p>✉️ support@pizzahut.com</p>
+        <p>🏢 7100 Corporate Dr, Plano, TX</p>
+      </div>
+  
+      <!-- Column 4: Social Media -->
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+      <p>&copy; 2025 PizzaHut. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  
+</body>
+</html>
